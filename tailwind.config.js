@@ -28,14 +28,14 @@ module.exports = {
         main: ['DM Sans', 'san-serif'],
         // body: ['Red Hat Text', 'san-serif'],
       },
-      //   screens: {
-      //   mobileS: "320px",
-      //   mobileM: "375px",
-      //   mobileL: "425px",
-      //   tablet: "768px",
-      //   laptop: "1024px",
-      //   laptopL: "1440px"
-      // }
+      screens: {
+        mobileS: '320px',
+        mobileM: '375px',
+        mobileL: '425px',
+        tablet: '768px',
+        laptop: '1024px',
+        laptopL: '1440px',
+      },
       height: (theme) => ({
         'screen/1': '100vh',
         'screen/2': '50vh',
@@ -63,5 +63,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('tailwind-scrollbar-hide'),
+    // ...
   ],
 }

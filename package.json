@@ -1,22 +1,23 @@
 {
-  "name": "fluentui-demo",
+  "name": "nextjs-master",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.1",
-    "next": "^10.2.3",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "tailwind-scrollbar-hide": "^1.0.3",
-    "tailwindcss": "^2.1.2"
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0"
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
   }
 }
